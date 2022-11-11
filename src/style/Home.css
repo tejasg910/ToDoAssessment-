@@ -1,0 +1,136 @@
+.maincontainer{
+min-height: 100vh;
+
+
+}
+
+body{
+background-color: rgb(239, 243, 247);
+}
+
+.searchbox{
+    padding: 5px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbox input{
+    padding: 7px;
+    border: 2px solid rgb(226, 137, 152);
+    font-size: 20px;
+    border-radius: 20px;
+    width: 50%;
+    transition: 0.5s all ;
+    color: rgb(29, 222, 29);
+    background-color: rgb(226, 237, 239);
+}
+.searchbox input:focus{
+    border: 2px solid yellow;
+    outline: none;
+    background-color: white;
+
+}
+
+.myheading{
+    margin-left: 30px;
+    color: rgb(226, 137, 152);
+}
+
+.notes{
+   
+    display: flex;
+    margin-top: 2rem;
+   
+
+}
+
+.notes .note {
+
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.75);
+width: 100%;
+ margin: 0 25rem; 
+    
+
+}
+.flex{
+    display: flex;
+}
+.justify-centre{
+    justify-content: center;
+}
+.addbtndiv{
+    margin-top: 10px;
+}
+.addbtn{
+    /* position: absolute; */
+    
+   cursor: pointer;
+   justify-content: center;
+    padding: 1rem;
+    background-color: rgb(226, 137, 152);
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    transition: 0.3s all;
+    border: 1px solid pink;
+}
+
+.addbtn:hover{
+    color: rgb(189, 68, 88);
+    background-color: aqua;
+    
+}
+
+.addnotebtn{
+    background-color: rgb(26, 236, 26);
+    
+    border: none;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.contentbtn{
+    color: rgb(196, 64, 86);
+    font-size: 21px;
+}
+
+.contentbtn .deletebtn{
+    margin-left: 5px;
+    cursor: pointer;
+
+
+}
+
+.contentbtn .editbtn{
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+
+@media only screen and (max-width: 1150px) {
+
+    .notes .note{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 80vw;
+       
+    }
+
+    .notescontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

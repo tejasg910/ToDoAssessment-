@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(134, 139, 128);
+   padding: 5px;
+}
+
+.flexul{
+    display: flex;
+}
+.flexul li{
+    list-style: none;
+
+    margin: 0 5px;
+}
+
+.flexul li a{
+    text-decoration: none;
+    color: white;
+}
